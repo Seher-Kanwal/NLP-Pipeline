@@ -24,4 +24,7 @@ In order for this sentence to be understood by a machine, tokenization is perfor
 Spacy provides a bunch of POS tags such as NOUN (noun), PUNCT (punctuation), ADJ(adjective), ADV(adverb), etc. It has a trained pipeline and statistical models which enable spaCy to make classification of which tag or label a token belongs to. For example, a word following “the” in English is most likely a noun.
 
 - # Named Entity Recognition (NER):
-Entities are the most important chunks of a particular sentence such as noun phrases, verb phrases, or both.
+Entities are the most important chunks of a particular sentence such as noun phrases, verb phrases, or both. Named Entity Recognition NER works by locating and identifying the named entities present in unstructured text into the standard categories such as person names, locations, organizations, time expressions, quantities, monetary values, percentage, codes etc. Spacy comes with an extremely fast statistical entity recognition system that assigns labels to contiguous spans of tokens.
+
+<img src = "https://confusedcoders.com/wp-content/uploads/2019/11/image2.png">
+Spacy has the ‘ner’ pipeline component that identifies token spans fitting a predetermined set of named entities. These are available as the ‘ents’ property of a Doc object.
